@@ -66,7 +66,7 @@
 - 🤖 AI 辅助的资产分析和处理
 - 🔗 与 Unreal Editor 无缝集成
 
-[了解更多 →](https://uebox.cn)
+[了解更多 →](https://uebox.ai)
 
 ---
 
@@ -84,7 +84,7 @@
 
 ## 🔗 链接
 
-- 官网: [uebox.cn](https://uebox.cn)
+- 官网: [uebox.ai](https://uebox.ai)
 - 反馈: [Issues](../../issues)
 
 ---

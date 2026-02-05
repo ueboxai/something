@@ -66,7 +66,7 @@ Feel free to discuss in [Issues](../../issues)!
 - 🤖 AI-assisted asset analysis and processing
 - 🔗 Seamless integration with Unreal Editor
 
-[Learn More →](https://uebox.cn)
+[Learn More →](https://uebox.ai)
 
 ---
 
@@ -84,7 +84,7 @@ Feel free to discuss in [Issues](../../issues)!
 
 ## 🔗 Links
 
-- Website: [uebox.cn](https://uebox.cn)
+- Website: [uebox.ai](https://uebox.ai)
 - Feedback: [Issues](../../issues)
 
 ---
