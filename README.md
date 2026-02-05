@@ -1,90 +1,92 @@
-# 虚幻盒子开源计划 🎮
+# Unreal Box Open Source Plan 🎮
 
-> 这是虚幻盒子（Unreal Box）官方账号的开源仓库，我们正在探索哪些内容适合回馈社区。
+> This is the official open source repository of Unreal Box. We're exploring what content would be valuable to share with the community.
 
-## 🤔 我们在思考开源什么...
+**[中文版](README_zh.md)**
 
-作为一个 Unreal Engine 资产管理工具，我们有一些独立的模块和工具可能对社区有价值。以下是我们正在考虑的方向：
+## 🤔 What We're Considering to Open Source...
 
----
-
-### 📦 候选开源项目
-
-#### 1. uasset 解析库
-- **描述**: 纯 JavaScript 实现的 .uasset / .umap 文件解析器
-- **功能**: 提取资产元数据、名称表、导入/导出表、属性数据
-- **支持**: UE4 / UE5（包括 5.3+ 的新结构）
-- **价值**: 让 Web 和 Node.js 开发者能够读取 Unreal 资产信息
-
-#### 2. 蓝图渲染库 🆕
-- **描述**: 纯 JavaScript 实现的 Unreal 蓝图可视化渲染器
-- **功能**: 将蓝图节点数据渲染为可视化图形
-- **用途**: 在 Web 端展示、分享、文档化蓝图逻辑
-- **价值**: 无需打开 UE 编辑器即可查看蓝图结构
-
-#### 3. UnrealAgentLink 插件（待定）
-- **描述**: Unreal Editor 与外部应用的桥接插件
-- **功能**: 双向通信、资产导入/导出、项目状态同步
-- **考虑**: 需要评估核心功能依赖
-
-#### 4. 资产分类规则
-- **描述**: Unreal 资产类型的分类和过滤规则集
-- **内容**: 资产类名映射、中文翻译、关键词匹配
-- **格式**: JSON / TypeScript 配置
-
-#### 5. 实用脚本集合
-- **内容**: 缩略图生成、资产批处理、文件监控等脚本
-- **语言**: Python / Node.js
-
-#### 6. 文档和教程
-- **UE 资产管理最佳实践**
-- **uasset 文件格式研究笔记**
-- **开发者资源和参考**
+As an Unreal Engine asset management tool, we have some standalone modules and utilities that could benefit the community. Here are the directions we're exploring:
 
 ---
 
-## 💬 告诉我们你想要什么
+### 📦 Candidate Open Source Projects
 
-我们希望听到社区的声音！
+#### 1. uasset Parser Library
+- **Description**: Pure JavaScript implementation of .uasset / .umap file parser
+- **Features**: Extract asset metadata, name tables, import/export tables, property data
+- **Support**: UE4 / UE5 (including 5.3+ new structures)
+- **Value**: Enables Web and Node.js developers to read Unreal asset information
 
-- 你最希望我们开源哪个模块？
-- 有什么特定的功能或工具你觉得有用？
-- 你在 Unreal 开发中遇到了什么痛点？
+#### 2. Blueprint Renderer 🆕
+- **Description**: Pure JavaScript implementation of Unreal Blueprint visual renderer
+- **Features**: Render blueprint node data into visual graphics
+- **Use Cases**: Display, share, and document blueprint logic on the web
+- **Value**: View blueprint structure without opening the UE Editor
 
-欢迎在 [Issues](../../issues) 中留言讨论！
+#### 3. UnrealAgentLink Plugin (TBD)
+- **Description**: Bridge plugin between Unreal Editor and external applications
+- **Features**: Bi-directional communication, asset import/export, project state sync
+- **Consideration**: Need to evaluate core functionality dependencies
 
----
+#### 4. Asset Classification Rules
+- **Description**: Classification and filter rule sets for Unreal asset types
+- **Content**: Asset class name mappings, translations, keyword matching
+- **Format**: JSON / TypeScript configuration
 
-## 📌 关于虚幻盒子
+#### 5. Utility Script Collection
+- **Content**: Thumbnail generation, asset batch processing, file monitoring scripts
+- **Languages**: Python / Node.js
 
-**虚幻盒子** 是一款面向 Unreal Engine 开发者的资产管理工具，帮助你：
-
-- 🗂️ 高效管理本地和网络资产库
-- 🔍 快速搜索和预览 UE 资产
-- 🤖 AI 辅助的资产分析和处理
-- 🔗 与 Unreal Editor 无缝集成
-
-[了解更多 →](https://uebox.cn)
-
----
-
-## 📋 开源进度
-
-| 项目 | 状态 | 预计时间 |
-|------|------|----------|
-| uasset 解析库 | 🟡 评估中 | TBD |
-| 蓝图渲染库 | 🟡 评估中 | TBD |
-| 资产分类规则 | 🟡 评估中 | TBD |
-| 实用脚本 | 🟡 评估中 | TBD |
-| 插件 | 🔴 待定 | TBD |
+#### 6. Documentation and Tutorials
+- **UE asset management best practices**
+- **uasset file format research notes**
+- **Developer resources and references**
 
 ---
 
-## 🔗 链接
+## 💬 Tell Us What You Want
 
-- 官网: [uebox.cn](https://uebox.cn)
-- 反馈: [Issues](../../issues)
+We want to hear from the community!
+
+- Which module would you most like us to open source?
+- Are there specific features or tools you find useful?
+- What pain points do you encounter in Unreal development?
+
+Feel free to discuss in [Issues](../../issues)!
 
 ---
 
-*这个仓库会持续更新，敬请关注！* ⭐
+## 📌 About Unreal Box
+
+**Unreal Box** is an asset management tool for Unreal Engine developers, helping you:
+
+- 🗂️ Efficiently manage local and network asset libraries
+- 🔍 Quickly search and preview UE assets
+- 🤖 AI-assisted asset analysis and processing
+- 🔗 Seamless integration with Unreal Editor
+
+[Learn More →](https://uebox.cn)
+
+---
+
+## 📋 Open Source Progress
+
+| Project | Status | ETA |
+|---------|--------|-----|
+| uasset Parser Library | 🟡 Evaluating | TBD |
+| Blueprint Renderer | 🟡 Evaluating | TBD |
+| Asset Classification Rules | 🟡 Evaluating | TBD |
+| Utility Scripts | 🟡 Evaluating | TBD |
+| Plugin | 🔴 TBD | TBD |
+
+---
+
+## 🔗 Links
+
+- Website: [uebox.cn](https://uebox.cn)
+- Feedback: [Issues](../../issues)
+
+---
+
+*This repository will be continuously updated, stay tuned!* ⭐
